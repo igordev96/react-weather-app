@@ -64,8 +64,8 @@ export default function MainInfo({ isGeoLocation, coords }) {
             <img
               src={
                 isLoadingCoords
-                  ? `http://openweathermap.org/img/wn/${current.weather[0].icon}@2x.png`
-                  : `http://openweathermap.org/img/wn/${weatherByCity.current.weather[0].icon}@2x.png`
+                  ? `https://openweathermap.org/img/wn/${current.weather[0].icon}@2x.png`
+                  : `https://openweathermap.org/img/wn/${weatherByCity.current.weather[0].icon}@2x.png`
               }
               height="72px"
               alt="weather description"
