@@ -23,7 +23,11 @@ export const StyledApp = styled.main`
 
   display: flex;
   background-image: ${(props) =>
-    props.id ? `url(src/images/${getWeatherCondition(props.id)}.jpg)` : ""};
+    props.id
+      ? `url(https://raw.githubusercontent.com/igordev96/react-weather-app/main/src/images/${getWeatherCondition(
+          props.id
+        )}.jpg)`
+      : ""};
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -42,7 +46,11 @@ export const StyledApp = styled.main`
     top: 0;
     z-index: -1;
     background-image: ${(props) =>
-      props.id ? `url(src/images/${getWeatherCondition(props.id)}.jpg)` : ""};
+      props.id
+        ? `url(https://raw.githubusercontent.com/igordev96/react-weather-app/main/src/images/${getWeatherCondition(
+            props.id
+          )}.jpg)`
+        : ""};
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
