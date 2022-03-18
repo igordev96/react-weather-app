@@ -10,11 +10,11 @@ API by OpenWeather
 
 ## Demo
 
-<img src="https://github.com/igordev96/react-ignite-games/blob/master/ignite.gif">
+<img src="https://raw.githubusercontent.com/igordev96/react-weather-app/main/weather.gif">
 
 <br>
 
-<h2><a href="https://react-ignite-games.netlify.app/" target="_blank">Click here to test it</a></h2>
+<h2><a href="https://igordev96-weather-app.netlify.app/" target="_blank">Click here to test it</a></h2>
 
 ## Run Locally
 
